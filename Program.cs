@@ -7,7 +7,7 @@ public class Whois
     static void Main(string[] args)
     {
         TcpClient client = new TcpClient();
-        client.Connect("whois.networksolutions.com", 43);
+        client.Connect("whois.net.dcs.hull.ac.uk", 43);
         StreamWriter sw = new StreamWriter(client.GetStream());
         StreamReader sr = new StreamReader(client.GetStream());
         try 
