@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MyClient": {
+      "commandName": "Project",
+      "commandLineArgs": "networksolutions.com"
+    }
+  }
+}
